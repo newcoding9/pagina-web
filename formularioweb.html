@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title> Formulario html </title>
+
+</head>
+
+<body>
+
+
+<h1>Formulario prueba</h1>
+
+
+<form action="" method="POST">
+   <label for="nombre">Nombre:</label>
+   <input type="text" id="nombre" name="nombre" required placeholder="Ingrese su nombre">
+   <br><br>
+   <label for="apellido"> Apellido: </label> 
+   <input type="text" id="apellido" name="apellido" required>  
+   <br><br>
+   <label for="edad"> Edad: </label>
+   <input type="number" id="edad" name="edad" min="18" max="99" required>
+   <br><br>
+   <label for="email"> Email: </label>
+   <input type="email" id="email" name="email"></label>
+   <br><br>
+   <label for="telefono"> Teléfono: </label> 
+   <input type="telefono" id="telefono" name="telefono" required>
+   <br><br>
+   <label for="date"> Fecha: </label>
+   <input type="date" id="date" name="date"></label>
+   <br><br> 
+   <label for="genero"> Género: </label>
+   <input type="radio" id="masculino" name="masculino" value="sí" checked>
+   <input type="radio" id="femenino" name="femenino" value="no">
+   <br><br>
+   <label for="terminos"> Acepto términos y condiciones </label>
+   <input type="checkbox" id="terminos" name="terminos" value="ok" required>
+   <br><br>
+   <select name="pais" id="pais">
+   <label for="pais"> País:</label>
+   <option value="argentina"> Argentina </option>
+   <option value="brasil"> Brasil </option>
+   <option value="chile" > Chile </option>
+   <option value="uruguay"> Uruguay </option>
+   </select>
+   <br><br>
+   <button type="submit"> Enviar </button>
+</form>
+
+</body>
+
+
+
+
+
+</html>
